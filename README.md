@@ -10,10 +10,12 @@ The objective of this project is to use python for developing a tool which can b
 # Tools
 
 You will need a python editor which is compatible with GUI development. 
+
 If you are using windows OS I recommend you to use the editor **spyder**, which you can download from this link:
 
 # Useful links
 
 # Contact
 Mail : carlos.garcia-guillamon@safrangroup.com
+
 Skype: carlosgguil
