@@ -2,7 +2,7 @@
 
 Repository for project 9 of the course IN104, year 2020.
 
-The objective of this project is to use python for developing a tool which can be used for the preliminary design of rockets and simulation of trajectories.
+The objective of this project is to develop a python tool for the preliminary design of rockets and simulation of trajectories.
 
 
 # Evaluation 
