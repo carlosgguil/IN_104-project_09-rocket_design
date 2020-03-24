@@ -23,6 +23,7 @@ If you are using windows OS I recommend you to use the editor **spyder**, which 
 # Useful links
 
 # Contact
-Mail : carlos.garcia-guillamon@safrangroup.com
+Mail 1: carlosgguil@outlook.es
+Mail 2: carlos.garcia-guillamon@safrangroup.com
 
 Skype: carlosgguil
