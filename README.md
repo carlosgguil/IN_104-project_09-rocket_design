@@ -12,26 +12,22 @@ The objective of this project is to develop a python tool for the preliminary de
 * 25 % **presentation**. Final presentation (between 5 and 10 min) plus questions. You can organise the presentation as you wish, as long at it shows the results of the code you have developed. 
 * 10 % **report**. Short pdf document (2-5 pages) indicating work performed, difficulties encountered and how they have been overcome. 
 
-# Deliverables
+# Tasks
+
+
 
 # Tools
 
 You will need a python editor which is compatible with GUI development. 
 
-If you are using windows OS I recommend you to use the editor **spyder** which you can download from the following link:
+If you are using windows OS I recommend you to use the editor **spyder**. You can download it from the following link:
 
   https://www.anaconda.com/distribution/ 
   
-Regarding git, you can create your own repository in https://github.com . 
-
-For updating and commiting in your github repository, you can  commiting changes in your github repository, you can download the tool **GitHub Desktop**: 
+For git, you can either create your own repository in https://github.com or download the tool **GitHub Desktop**  to create a local repository. You can download it from the follozing link:
 
     https://desktop.github.com/
   
-
-
-# Useful links
-
 # Contact
 Mail 1: carlosgguil@outlook.es
 
