@@ -4,6 +4,9 @@ Repository for project 9 of the course IN104, year 2020.
 
 The objective of this project is to develop a python tool for the preliminary design of rockets and simulation of trajectories.
 
+# Project description
+
+
 
 # Evaluation 
 
@@ -11,10 +14,6 @@ The objective of this project is to develop a python tool for the preliminary de
 * 25 % **continuous evaluation**. Performing tasks and meeting deadlines without leaving everything for the last minute. Monitoring will be done through git commits in your own repository.
 * 25 % **presentation**. Final presentation (between 5 and 10 min) plus questions. You can organise the presentation as you wish, as long at it shows the results of the code you have developed. 
 * 10 % **report**. Short pdf document (2-5 pages) indicating work performed, difficulties encountered and how they have been overcome. 
-
-# Tasks
-
-
 
 # Tools
 
@@ -29,6 +28,7 @@ For git, you can either create your own repository in https://github.com or down
   https://desktop.github.com/
   
 # Contact
+
 Mail 1: carlosgguil@outlook.es
 
 Mail 2: carlos.garcia-guillamon@safrangroup.com
