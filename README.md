@@ -26,7 +26,7 @@ If you are using windows OS I recommend you to use the editor **spyder**. You ca
   
 For git, you can either create your own repository in https://github.com or download the tool **GitHub Desktop**  to create a local repository. You can download it from the follozing link:
 
-    https://desktop.github.com/
+  https://desktop.github.com/
   
 # Contact
 Mail 1: carlosgguil@outlook.es
