@@ -6,6 +6,20 @@ The objective of this project is to develop a python tool for the preliminary de
 
 # Project description
 
+In this project, you are going to code a python tool that can be used for the preliminary design of rockets and simulation of trajectories.
+
+This project has two main lines of work: 
+
+ * Definition of a space mission and simulation of trajectories. Examples of missions can be to put a satellite in Low Earth Orbit (LEO) of Geostationary Orbit (GEO), reach the moon, etc.
+ * Bulding a Graphic User Interface (GUI) for the design of rockets.
+
+Both tasks are independent but must be linked somehow. The idea is that the GUI can be used to make preliminary designs of rockets that can be stored in a database. Rockets will be considered as python classes. The database will be created, accessed and modified with the package pandas. 
+
+This database will be accessed by a script that you will develop for simulating the mission. The idea is that this script can analyze the performance of rockets: trajectories will be plotted and animated if possible. For this, you can use python tools such as matplotlib or pygame. 
+
+All the information regarding this project is contained in this repository. The file 'rocket_database.csv' is an example of database containing six rockets; you can use this database as starting point for adding more rockets that you find and for adding your own ones. The file 'notes.pdf' (not available yet, coming soon!) is a documents with all the scientific background for carrying the project (as the objective of this project is to develop your computing skills, not becoming experts in rocket science).
+
+Besides, you will need to create your own github repository. You will use git commands for updating this repository. You must also add me as a collaborator (git user carlosgguil) so that I can see your commits and track your work for continuous evaluation.
 
 
 # Evaluation 
@@ -33,4 +47,4 @@ Mail 1: carlosgguil@outlook.es
 
 Mail 2: carlos.garcia-guillamon@safrangroup.com
 
-Skype: carlosgguil
+Skype and zoom meetings are possible under request.
