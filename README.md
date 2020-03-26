@@ -18,7 +18,17 @@ The objective of this project is to develop a python tool for the preliminary de
 
 You will need a python editor which is compatible with GUI development. 
 
-If you are using windows OS I recommend you to use the editor **spyder**, which you can download from this link:
+If you are using windows OS I recommend you to use the editor **spyder** which you can download from the following link:
+
+  https://www.anaconda.com/distribution/ 
+  
+Regarding git, you can create your own repository in https://github.com . 
+
+For updating and commiting in your github repository, you can  commiting changes in your github repository, you can download the tool **GitHub Desktop**: 
+
+    https://desktop.github.com/
+  
+
 
 # Useful links
 
