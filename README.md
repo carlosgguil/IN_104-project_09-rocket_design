@@ -31,16 +31,25 @@ Besides, you will need to create your own github repository. You will use git co
 
 # Tools
 
+## Python tools
+
 You will need a python editor which is compatible with GUI development. 
 
 If you are using windows OS I recommend you to use the editor **spyder**. You can download it from the following link:
 
   https://www.anaconda.com/distribution/ 
   
+The database will be handled with the package **pandas**. You can get an introduction to how pandas works in the following guide:
+
+  https://pandas.pydata.org/docs/getting_started/index.html
+
+## Git
+
 For git, you can either create your own repository in https://github.com or download the tool **GitHub Desktop**  to create a local repository. You can download it from the follozing link:
 
   https://desktop.github.com/
-  
+
+
 # Contact
 
 Mail 1: carlosgguil@outlook.es
