@@ -15,7 +15,7 @@ This project has two main lines of work:
 
 These tasks are independent but linked. Below in this document you have the section **Tasks**, which details the steps to follow in this project. Three tasks are distinguished: tasks 1 and 2 correspond to rocket design, and task 3 corresponds to trajectories.
 
-The idea is that you handle tools that are useful for a wide range of projects such as python classes and data science. Rockets will be considered as python classes and will be stored in a database. The database will be created, accessed and modified with the package pandas. Graphical tools (for printing rockets and trajectories) are also useful. 
+The idea is that you handle tools such as python classes and data science, which are useful for a wide range of projects. Rockets will be considered as python classes and will be stored in a database. The database will be created, accessed and modified with the package pandas. Graphical tools (for printing rockets and trajectories) are also useful. 
 
 This database will be accessed by a script that you will develop for simulating the mission. The idea is that this script can analyze the performance of rockets: trajectories will be plotted and animated if possible. For this, you can use python tools such as matplotlib or pygame. 
 
