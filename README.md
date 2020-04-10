@@ -10,10 +10,12 @@ In this project, you are going to code a python tool that can be used for the pr
 
 This project has two main lines of work: 
 
+ * Design of rockets with the aid of OOP and GUI.
  * Definition of a space mission and simulation of trajectories. Examples of missions can be to put a satellite in Low Earth Orbit (LEO) of Geostationary Orbit (GEO), reach the moon, etc.
- * Bulding a Graphic User Interface (GUI) for the design of rockets.
 
-Both tasks are independent but must be linked somehow. The idea is that the GUI can be used to make preliminary designs of rockets that can be stored in a database. Rockets will be considered as python classes. The database will be created, accessed and modified with the package pandas. 
+These tasks are independent but must be linked. The idea is that the GUI can be used to access the database
+
+make preliminary designs of rockets that can be stored in a database. Rockets will be considered as python classes. The database will be created, accessed and modified with the package pandas. 
 
 This database will be accessed by a script that you will develop for simulating the mission. The idea is that this script can analyze the performance of rockets: trajectories will be plotted and animated if possible. For this, you can use python tools such as matplotlib or pygame. 
 
@@ -23,10 +25,14 @@ Besides, you will need to create your own github repository. You will use git co
 
 # Tasks 
 
-* Handle the rocket database. You will develop a script that is able to access and modify the database by adding or eliminating rockets. Each rocket will be stored as a
+1 Create a python program to handle the database and build rockets. This program will consists of two files: 
 
-* 
+    * **rocket_module.py**: module file that will contain the definitions of classes with their attributes and methods, plus any other function you can use in main.py (for example, for plotting). This file can be used to create unit tests. You can add as many functions and classes as you wish. The attributes of the rockets should be the ones that are available in the database, but you can add more if desired. You can also apply the inheritance properties as you want.  Feel free to explore options !
+    * **main.py**:  main script what will handle rockets by using the functions and methods defined in rocket_module.py. This file will implement two main functionalities: *read* the rockets in the database (with pandas) and defining them as objects in the script (as you did in TD2), and *build* rockets by defining first the objects and then adding them to the database. Besides this, this script should be able to plot the geometry of the rockets (they can be stored in picture files with .png or .jpg format). The geometry should be schematic (as shown for example in *Chapter 3 - Rockets characteristics* of file rocket_science_notes.pdf), but you can do it as simple or as complex as you want. If you want to go further, you can add the option to plot several rockets together to distinguish their size (as in https://es.m.wikipedia.org/wiki/Archivo:Rocket_size_comparison.png).
+   
+2. Create a GUI for performing the same functionalities as the file **main.py**. In the same fashion as this script, the GUI should have the options to read the rockets from the database and plot them, and to define the rockets (by means of inputs to the GUI) and store them in the database. The GUI should access the functions and files that you defined in **rocket_module.py**, but should not interact with **main.py**.
 
+3. Simulate the rocketsin trajectories. This is the last part and I still need to define it, so please start working on parts 1 and 2 and I will update you soon.
 
 # Available tools
 
@@ -34,7 +40,7 @@ In this repository, you will be able to find the following tools and documents:
 
 - A **rocket database** containing the geometrical characteristics and performance of real rockets. The database is the file 'rocket_database.csv' located inside the folder 'database'. This folder contains also a handbook with an explanation of the database, named 'handbook.pdf'.
 
-- The file **rocket_science_notes**, which serves as an introduction to the concepts behind rockets that you need to use in this project. It is not intended to be a course on rocket science, but a practical handbook containing the tools for implementing the code. You are encouraged to contact me if you find any errors in the document or if there is something you do not understand so that I can make things easier for you.
+- The file **rocket_science_notes.pdf**, which serves as an introduction to the concepts behind rockets that you need to use in this project. It is not intended to be a course on rocket science, but a practical handbook containing the tools for implementing the code. You are encouraged to contact me if you find any errors in the document or if there is something you do not understand so that I can make things easier for you.
 
 # Resources
 
@@ -49,17 +55,23 @@ If you are using windows OS I recommend you to use the editor **spyder**. You ca
 The database will be handled with the package **pandas**. You can get an introduction to how pandas works in the following guide:
 
   https://pandas.pydata.org/docs/getting_started/index.html
+  
+The GUI can be created with the took **tkinter**. Here you have a nice video (in french) 
+
+ https://www.youtube.com/watch?v=N4M4W7JPOL4
 
 ## Git
 
-For git, you can either create your own repository in https://github.com or download the tool **GitHub Desktop**  to create a local repository. You can download it from the follozing link:
+For git, you need to create your own repository and add me as a collaborator. You have all the tools you need for using GIT in TD1. 
+
+If you wish, you can also create repositories directly in https://github.com. If you are using windows, you can download the tool **GitHub Desktop** to clone your repositories in local folders.
 
   https://desktop.github.com/
 
 
 # Evaluation 
 
-* 40 % **source code**. The objective is to have a tool that works according to its requirements. You will not be based on how much your tool can do in terms of science (as the objective of the project is not this science in itself), but on how well it can do what it is supposed to do.
+* 40 % **source code**. The objective is to have a tool that works according to its requirements. You will not be based on how much your tool can do in terms of science (as the objective of the project is not this science in itself), but on how well it can do what it is supposed to do. The use of what you have learnt in the TDs (git, OOP and unit test) will be valued.
 * 25 % **continuous evaluation**. Performing tasks and meeting deadlines without leaving everything for the last minute. Monitoring will be done through git commits in your own repository.
 * 25 % **presentation**. Final presentation (between 5 and 10 min) plus questions. You can organise the presentation as you wish, as long at it shows the results of the code you have developed. 
 * 10 % **report**. Short pdf document (2-5 pages) indicating work performed, difficulties encountered and how they have been overcome. 
