@@ -13,9 +13,9 @@ This project has two main lines of work:
  * Design of rockets with the aid of OOP and GUI.
  * Definition of a space mission and simulation of trajectories. Examples of missions can be to put a satellite in Low Earth Orbit (LEO) of Geostationary Orbit (GEO), reach the moon, etc.
 
-These tasks are independent but must be linked. The idea is that the GUI can be used to access the database
+These tasks are independent but linked. Below in this document you have the section **Tasks**, which details the steps to follow in this project. Three tasks are distinguished: tasks 1 and 2 correspond to rocket design, and task 3 corresponds to trajectories.
 
-make preliminary designs of rockets that can be stored in a database. Rockets will be considered as python classes. The database will be created, accessed and modified with the package pandas. 
+The idea is that you handle tools that are useful for a wide range of projects such as python classes and data science. Rockets will be considered as python classes and will be stored in a database. The database will be created, accessed and modified with the package pandas. Graphical tools (for printing rockets and trajectories) are also useful. 
 
 This database will be accessed by a script that you will develop for simulating the mission. The idea is that this script can analyze the performance of rockets: trajectories will be plotted and animated if possible. For this, you can use python tools such as matplotlib or pygame. 
 
@@ -26,9 +26,7 @@ Besides, you will need to create your own github repository. You will use git co
 # Tasks 
 
 1 Create a python program to handle the database and build rockets. This program will consists of two files: 
-
     1 **rocket_module.py**: module file that will contain the definitions of classes with their attributes and methods, plus any other function you can use in main.py (for example, for plotting). This file can be used to create unit tests. You can add as many functions and classes as you wish. The attributes of the rockets should be the ones that are available in the database, but you can add more if desired. You can also apply the inheritance properties as you want.  Feel free to explore options !
-    
     2 **main.py**:  main script what will handle rockets by using the functions and methods defined in rocket_module.py. This file will implement two main functionalities: *read* the rockets in the database (with pandas) and defining them as objects in the script (as you did in TD2), and *build* rockets by defining first the objects and then adding them to the database. Besides this, this script should be able to plot the geometry of the rockets (they can be stored in picture files with .png or .jpg format). The geometry should be schematic (as shown for example in *Chapter 3 - Rockets characteristics* of file rocket_science_notes.pdf), but you can do it as simple or as complex as you want. If you want to go further, you can add the option to plot several rockets together to distinguish their size (as in https://es.m.wikipedia.org/wiki/Archivo:Rocket_size_comparison.png).
    
 2. Create a GUI for performing the same functionalities as the file **main.py**. In the same fashion as this script, the GUI should have the options to read the rockets from the database and plot them, and to define the rockets (by means of inputs to the GUI) and store them in the database. The GUI should access the functions and files that you defined in **rocket_module.py**, but should not interact with **main.py**.
