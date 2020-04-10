@@ -31,7 +31,7 @@ Besides, you will need to create your own github repository. You will use git co
    
 2. Create a GUI for performing the same functionalities as the file **main.py**. In the same fashion as this script, the GUI should have the options to read the rockets from the database and plot them, and to define the rockets (by means of inputs to the GUI) and store them in the database. The GUI should access the functions and files that you defined in **rocket_module.py**, but should not interact with **main.py**.
 
-3. Simulate the rocketsin trajectories. This is the last part and I still need to define it, so please start working on parts 1 and 2 and I will update you soon.
+3. Simulate the rockets in trajectories. This is the last part and I still need to define it, so please start working on parts 1 and 2 and I will update you soon.
 
 # Available tools
 
