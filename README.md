@@ -17,15 +17,24 @@ Both tasks are independent but must be linked somehow. The idea is that the GUI 
 
 This database will be accessed by a script that you will develop for simulating the mission. The idea is that this script can analyze the performance of rockets: trajectories will be plotted and animated if possible. For this, you can use python tools such as matplotlib or pygame. 
 
-All the information regarding this project is contained in this repository. The file 'rocket_database.csv' is an example of database containing six rockets; you can use this database as starting point for adding more rockets that you find and for adding your own ones. The file 'notes.pdf' (not available yet, coming soon!) is a documents with all the scientific background for carrying the project (as the objective of this project is to develop your computing skills, not becoming experts in rocket science).
+All the information regarding this project is contained in this repository. The file 'rocket_database.csv' is an example of database containing six rockets; you can use it as starting point for adding more rockets that you might find and for adding your own ones. The file 'rocket_science_notes.pdf' is a document with all the scientific background for carrying the project (as the objective of this project is to develop your computing skills, not becoming experts in rocket science).
 
 Besides, you will need to create your own github repository. You will use git commands for updating this repository. You must also add me as a collaborator (git user carlosgguil) so that I can see your commits and track your work for continuous evaluation.
+
+# Tasks 
+
+* Handle the rocket database. You will develop a script that is able to access and modify the database by adding or eliminating rockets. Each rocket will be stored as a
+
+* 
+
 
 # Available tools
 
 In this repository, you will be able to find the following tools and documents:
 
 - A **rocket database** containing the geometrical characteristics and performance of real rockets. The database is the file 'rocket_database.csv' located inside the folder 'database'. This folder contains also a handbook with an explanation of the database, named 'handbook.pdf'.
+
+- The file **rocket_science_notes**, which serves as an introduction to the concepts behind rockets that you need to use in this project. It is not intended to be a course on rocket science, but a practical handbook containing the tools for implementing the code. You are encouraged to contact me if you find any errors in the document or if there is something you do not understand so that I can make things easier for you.
 
 # Resources
 
