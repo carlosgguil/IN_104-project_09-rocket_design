@@ -31,7 +31,11 @@ Besides, you will need to create your own github repository. You will use git co
    
 2. Create a GUI for performing the same functionalities as the file **main.py**. In the same fashion as this script, the GUI should have the options to read the rockets from the database and plot them, and to define the rockets (by means of inputs to the GUI) and store them in the database. The GUI should access the functions and files that you defined in **rocket_module.py**, but should not interact with **main.py**.
 
-3. Simulate the rockets in trajectories. This is the last part and I still need to define it, so please start working on parts 1 and 2 and I will update you soon.
+3. Simulate the rockets in trajectories. The background for this part is in Chapter 4 of the notes. Tasks:
+    1. Choose one two-stages rocket (either one available at the database or one you have created) and plot three flat trajectories.
+    2. Choose at least two different rockets (with at least one of your own creation) and plot one trajectory per rocket in the same graph. 
+    3. Animate at least one trajectory. Choose any trajectory of the previous ones and create an animated graph as shown in Figure 6 of the rocket science notes.
+    4. **Extra**: define a mission and create a rocket for accomplishing it. For it, you will need to define the highest altitude of the trajectory (i.e. the culmination point) and use the relations presented in the notes to calculate the pitch angle and the parameters of the rocket. 
 
 # Available tools
 
@@ -59,7 +63,7 @@ The GUI can be created with the took **tkinter**. Here you have a nice video (in
 
  https://www.youtube.com/watch?v=N4M4W7JPOL4
 
-## Git
+## GIT
 
 For git, you need to create your own repository and add me as a collaborator. You have all the tools you need for using GIT in TD1. 
 
@@ -70,7 +74,7 @@ If you wish, you can also create repositories directly in https://github.com. If
 
 # Evaluation 
 
-* 40 % **source code**. The objective is to have a tool that works according to its requirements. You will not be based on how much your tool can do in terms of science (as the objective of the project is not this science in itself), but on how well it can do what it is supposed to do. The use of what you have learnt in the TDs (git, OOP and unit test) will be valued.
+* 40 % **source code**. The objective is to have a tool that works according to its requirements. You will not be based on how much your tool can do in terms of science (as the objective of the project is not this science in itself), but on how well it can do what it is supposed to do. The use of what you have learnt in the TDs (GIT, OOP and unit test) will be valued.
 * 25 % **continuous evaluation**. Performing tasks and meeting deadlines without leaving everything for the last minute. Monitoring will be done through git commits in your own repository.
 * 25 % **presentation**. Final presentation (between 5 and 10 min) plus questions. You can organise the presentation as you wish, as long at it shows the results of the code you have developed. 
 * 10 % **report**. Short pdf document (2-5 pages) indicating work performed, difficulties encountered and how they have been overcome. 
