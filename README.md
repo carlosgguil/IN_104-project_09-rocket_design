@@ -86,6 +86,6 @@ Mail 1: carlosgguil@outlook.es
 
 Mail 2: carlos.garcia-guillamon@safrangroup.com
 
-Telegram chat for project group discussions: https://t.me/joinchat/QAceNRqql8rS7aE1KTpliA
+Telegram chat for project group discussions: 
 
-Skype and zoom meetings are possible under request.
+Zoom meetings are possible under request.
